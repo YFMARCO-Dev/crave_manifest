@@ -17,8 +17,8 @@
 
 
  <!--Tree -->
- <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO" revision="blaze-14" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO" revision="blaze-14" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO" revision="crdroid-14" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO" revision="crdroid-14" />
 
 
  <!--Kernel -->
@@ -27,13 +27,12 @@
  <!--Vendor -->
  <project path="vendor/samsung/gta4l" name="TheMuppets/proprietary_vendor_samsung_gta4l" remote="github" revision="lineage-21" />
  <project path="vendor/samsung/gta4l-common" name="TheMuppets/proprietary_vendor_samsung_gta4l-common" remote="github" revision="lineage-21" />
- <project path="vendor/blaze" name="vendor_blaze" remote="github" revision="14-QPR2" />
 
 <!--CleanUp Existing-->
 
 <!--Other HALs-->
 
 <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO" revision="lineage-22" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO" revision="lineage-21" />
 
 </manifest>
