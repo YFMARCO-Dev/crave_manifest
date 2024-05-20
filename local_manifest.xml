@@ -33,6 +33,6 @@
 <!--Other HALs-->
 
 <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO" revision="lineage-21" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO" revision="pixel-14" />
 
 </manifest>
