@@ -12,9 +12,6 @@
     <remote  name="gh"
            fetch="https://github.com"/> 
 
-    <remote  name="gitlab"
-           fetch="https://gitlab.com/"/> 
-
 
  <!--Tree -->
  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO" revision="evox-14" />
