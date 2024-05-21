@@ -17,8 +17,8 @@
 
 
  <!--Tree -->
- <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO" revision="crdroid-14" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO" revision="crdroid-14" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO" revision="evox-14" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO" revision="evox-14" />
 
 
  <!--Kernel -->
