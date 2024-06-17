@@ -22,7 +22,7 @@
 
 
  <!--Kernel -->
- <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO" revision="lineage-21" />
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO" revision="ksu-14" />
  
  <!--Vendor -->
  <project path="vendor/samsung/gta4l" name="TheMuppets/proprietary_vendor_samsung_gta4l" remote="github" revision="lineage-21" />
