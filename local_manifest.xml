@@ -4,16 +4,11 @@
             fetch="https://github.com/YFMARCO-Dev"
             clone-depth="1" />
 
-  clone-depth="1" />
-    <remote name="z3zens"
-            fetch="https://github.com/z3zens"
-            clone-depth="1" />
-
     <remote  name="gh"
            fetch="https://github.com"/> 
 
     <remote  name="gitlab"
-           fetch="https://gitlab.com/"/> 
+           fetch="https://gitlab.com/crdroidandroid/"/> 
 
 
  <!--Tree -->
@@ -23,6 +18,7 @@
 
  <!--Kernel -->
  <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="fourteen" />
+ <project path="prebuilts/clang/host/linux-86/clang-r510928" name="android_prebuilts_clang_host_linux-x86_clang-r510928" remote="gitlab" revision="14.0" />
 
  <!--Vendor -->
  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="fourteen" />
@@ -33,6 +29,6 @@
 <!--Other HALs-->
 
 <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO-Dev" revision="lineage-21" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO-Dev" revision="aosp" />
 
 </manifest>
