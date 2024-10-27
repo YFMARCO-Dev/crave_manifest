@@ -18,7 +18,7 @@
 
  <!--Kernel -->
  <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="fourteen" />
- <project path="prebuilts/clang/host/linux-86/clang-r510928" name="android_prebuilts_clang_host_linux-x86_clang-r510928" remote="gitlab" revision="14.0" />
+ <project path="prebuilts/clang/host/linux-86/clang-r498229b" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" />
 
  <!--Vendor -->
  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="fourteen" />
