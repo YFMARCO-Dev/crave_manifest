@@ -7,10 +7,6 @@
     <remote  name="gh"
            fetch="https://github.com"/> 
 
-    <remote  name="gitlab"
-           fetch="https://gitlab.com/crdroidandroid/"/> 
-
-
  <!--Tree -->
  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="orion-14" />
  <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO-Dev" revision="orion-14" />
@@ -18,7 +14,6 @@
 
  <!--Kernel -->
  <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="fourteen" />
- <project path="prebuilts/clang/host/linux-86/clang-r498229b" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" />
 
  <!--Vendor -->
  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="fourteen" />
