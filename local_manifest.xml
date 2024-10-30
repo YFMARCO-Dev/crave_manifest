@@ -9,7 +9,7 @@
 
  <!--Tree -->
  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="orion-14" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO-Dev" revision="orion-14" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO-Dev" revision="fourteen" />
 
 
  <!--Kernel -->
