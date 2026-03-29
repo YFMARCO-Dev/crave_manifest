@@ -3,27 +3,31 @@
     <remote name="YFMARCO-Dev"
             fetch="https://github.com/YFMARCO-Dev"
             clone-depth="1" />
+    
+    <remote name="LineageOS"
+            fetch="https://https://github.com/LineageOS"
+            clone-depth="1"
 
     <remote  name="gh"
            fetch="https://github.com"/> 
 
  <!--Tree -->
- <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="orion-14" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO-Dev" revision="fourteen" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="sixteen" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="YFMARCO-Dev" revision="sixteen" />
 
 
  <!--Kernel -->
- <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="fourteen" />
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="sixteen" />
 
  <!--Vendor -->
- <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="fourteen" />
- <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="YFMARCO-Dev" revision="fourteen" />
+ <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="sixteen" />
+ <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_sm6115-common" remote="YFMARCO-Dev" revision="sixteen" />
 
 <!--CleanUp Existing-->
 
 <!--Other HALs-->
 
 <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="YFMARCO-Dev" revision="aosp" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-23.2" />
 
 </manifest>
