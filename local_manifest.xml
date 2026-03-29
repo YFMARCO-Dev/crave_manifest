@@ -5,11 +5,11 @@
             clone-depth="1" />
     
     <remote name="LineageOS"
-            fetch="https://https://github.com/LineageOS"
-            clone-depth="1"
+            fetch="https://github.com/LineageOS"
+            clone-depth="1" />
 
-    <remote  name="gh"
-           fetch="https://github.com"/> 
+    <remote name="gh"
+            fetch="https://github.com" />
 
  <!--Tree -->
  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="sixteen" />
