@@ -13,15 +13,15 @@
 
  <!--Tree -->
  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="YFMARCO-Dev" revision="sixteen" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_sm6115-common" remote="YFMARCO-Dev" revision="sixteen" />
+ <project path="device/samsung/sm6115-common" name="android_device_samsung_sm6115-common" remote="YFMARCO-Dev" revision="sixteen" />
 
 
  <!--Kernel -->
- <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="YFMARCO-Dev" revision="sixteen" />
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="LineageOS" revision="lineage-23.2" />
 
  <!--Vendor -->
  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="YFMARCO-Dev" revision="sixteen" />
- <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_sm6115-common" remote="YFMARCO-Dev" revision="sixteen" />
+ <project path="vendor/samsung/sm6115-common" name="proprietary_vendor_samsung_sm6115-common" remote="YFMARCO-Dev" revision="sixteen" />
 
 <!--CleanUp Existing-->
 
